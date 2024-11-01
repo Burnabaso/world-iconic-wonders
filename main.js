@@ -9,12 +9,12 @@ axios.get(apiUri).then((response)=>{
             <div class="wonder-card">
                 <div class="wonder-image">
                     <img
-                        src=${wondersData[wonder].links.images[0]}
+                        src=${wondersData[wonder].links.images[2]}
                         alt=${wondersData[wonder].name}
                     />
                 </div>
                 <h3>${wondersData[wonder].name}</h3>
-                <p>
+                <p class="summary">
                     ${wondersData[wonder].summary}
                 </p>
                 <em>${wondersData[wonder].location}</em>
@@ -37,12 +37,12 @@ axios.get(apiUri).then((response)=>{
             <div class="wonder-card">
                 <div class="wonder-image">
                     <img
-                        src=${wondersData.links.images[0]}
+                        src=${wondersData.links.images[2]}
                         alt=${wondersData.name}
                     />
                 </div>
                 <h3>${wondersData.name}</h3>
-                <p>
+                <p class="summary">
                     ${wondersData.summary}
                 </p>
                 <em>${wondersData.location}</em>

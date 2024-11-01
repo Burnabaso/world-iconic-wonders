@@ -19,6 +19,9 @@ body{
     padding: 2em 0;
     gap: 1em;
 }
+h3{
+    text-align: center;
+}
 body>h1{
     color: #852c04;
 }
@@ -55,9 +58,16 @@ a:hover{
     padding: 1em;
     border-radius: 10px;
     gap: 10px;
+    justify-content: space-around;
+    
+    height: 800px;
+}
+.wonder-card>*{
+    flex-grow: 1;
 }
 .wonder-image{
-    width: 98%
+    width: 98%;
+    height: 24%;
 }
 .sources-container{
     display: flex;
@@ -67,6 +77,10 @@ a:hover{
     padding: 5px;
     gap: 0.5em;
     border-radius: 10px;
+    height: 10%;
+}
+.summary{
+    height: 30%;
 }
 .sources-card{
     display: flex;
