@@ -1,0 +1,1 @@
+const apiUri = "https://www.world-wonders-api.org/v0/wonders"
