@@ -19,14 +19,14 @@ axios.get(apiUri).then((response)=>{
                 </p>
                 <em>${wondersData[wonder].location}</em>
                 <p>${wondersData[wonder].build_year < 0? `${Math.abs(wondersData[wonder].build_year)} B.C`: `${wondersData[wonder].build_year} A.C`}</p>
-                <em>time-period</em>
+                <em>${wondersData[wonder].time_period}</em>
                 <div class="sources-container">
                 <h4>More Info</h4>
                 <div class="sources-card">
-                    <a href="" target="_blank">Wiki</a>
-                    <a href="" target="_blank">Britannica</a>
-                    <a href="" target="_blank">Google Maps</a>
-                    <a href="" target="_blank">Trip Advisor</a>
+                    <a href=${wondersData[wonder].links.wiki} target="_blank">Wiki</a>
+                    <a href=${wondersData[wonder].links.britannica} target="_blank">Britannica</a>
+                    <a href=${wondersData[wonder].links.google_maps} target="_blank">Google Maps</a>
+                    <a href=${wondersData[wonder].links.trip_advisor} target="_blank">Trip Advisor</a>
                 </div>
                 </div>
             </div>
