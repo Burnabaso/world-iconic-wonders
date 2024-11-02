@@ -60,7 +60,6 @@ a:hover{
     gap: 10px;
     justify-content: space-around;
     
-    height: 800px;
 }
 .wonder-card>*{
     flex-grow: 1;
@@ -71,20 +70,11 @@ a:hover{
 }
 .sources-container{
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #852c04 ;
-    padding: 5px;
+    padding: 5px 10px;
     gap: 0.5em;
     border-radius: 10px;
     height: 10%;
 }
-.summary{
-    height: 30%;
-}
-.sources-card{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
-}
+
