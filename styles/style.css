@@ -22,7 +22,7 @@ body{
 h3{
     text-align: center;
 }
-body>h1{
+h1{
     color: #852c04;
 }
 a{
@@ -30,7 +30,7 @@ a{
     color: black;
 }
 a:hover{
-    color: #e4ccab;
+    color: #852c04;
 }
 .separator{
     height: 5px;
@@ -72,9 +72,20 @@ a:hover{
     display: flex;
     align-items: center;
     background-color: #852c04 ;
-    padding: 5px 10px;
+    padding: 5px;
     gap: 0.5em;
     border-radius: 10px;
     height: 10%;
 }
-
+.sources-container>a:hover{
+    color: white;
+}
+.sources-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+.summary{
+    width: 80%;
+}
