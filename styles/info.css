@@ -1,6 +1,4 @@
 .slideshow-container {
-    position: relative;
-    margin: auto;
     height: 400px;
     background-color: #852c04;
     align-items: center;
@@ -26,13 +24,16 @@
     padding-left: 1em;
     align-items: center;
     height: 100vh;
+    flex-wrap: wrap;
+    /* justify-content: center; */
   }
   .side-info{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2em;
-   
+    min-width: 374px;
+    max-width: 890px;
   }
   @keyframes fade {
     from {opacity: .4}

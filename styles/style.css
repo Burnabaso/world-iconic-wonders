@@ -76,6 +76,8 @@ a:hover{
     gap: 0.5em;
     border-radius: 10px;
     height: 10%;
+    width:70%;
+    justify-content: center;
 }
 .sources-container>a:hover{
     color: white;
@@ -88,4 +90,10 @@ a:hover{
 }
 .summary{
     width: 80%;
+}
+@media screen and (max-width:1238px) {
+    .more-section{
+       
+        justify-content: center;
+      }
 }
